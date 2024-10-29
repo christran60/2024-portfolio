@@ -6,7 +6,7 @@ import SocialLink from "@/components/socials/socialLink";
 import ProjectList from "@/components/projects/projectList";
 export const metadata = {
   title: "Home | Christopher Tran",
-  description: "Home page of Christopher Tran's Portfolio",
+  description: "Home page of Christopher Tran&apos;s Portfolio",
 };
 
 const projects = [
@@ -87,7 +87,7 @@ export default function Home() {
           <p>
             Please feel free to reach out to me through any platform you choose!
             I prefer email, but my socials listed below are fine as well if
-            you'd like.
+            you&apos;d like.
           </p>
           <br />
         </section>
