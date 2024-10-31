@@ -2,10 +2,11 @@
 import SocialLink from "../socials/socialLink";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="dark:bg-neutral-950 py-5 pt-32 pb-10 text-sm">
       <div className="mx-auto max-w-screen-sm px-6 flex justify-between items-center">
-        <div>© 2024 Christopher Tran</div>
+        <div>© {currentYear} Christopher Tran</div>
         <div className="flex space-x-8">
           <SocialLink
             href="https://github.com/christran60"

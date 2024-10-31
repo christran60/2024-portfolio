@@ -1,6 +1,5 @@
 // components/Navbar.js
 import NavLink from "./navLink";
-import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="bg-white bg-opacity-60 dark:bg-neutral-950 dark:bg-opacity-80 backdrop-blur shadow-md fixed top-0 left-0 w-full z-10">
@@ -80,15 +79,16 @@ m1010 -2214 c63 -21 74 -47 57 -130 -19 -92 -51 -106 -179 -77 -147 34 -204
             </NavLink>
           </div>
           <div className="flex items-center space-x-1">
-            <NavLink href="/experience">experience</NavLink>
-            <NavLink href="/projects">projects</NavLink>
+            <NavLink href="/experience">Experience</NavLink>
+            <NavLink href="/projects">Projects</NavLink>
             <div className="flex items-center space-x-2">
-              <Link
-                href="/"
+              <a
+                href="/api/resume"
+                download="Christopher Tran Resume.pdf"
                 className="text-gray-900 dark:text-white rounded-lg bg-slate-700 hover:bg-gray-200 dark:hover:bg-blue-300 px-3 py-2 transition select-none"
               >
                 <span className="flex items-center">
-                  resume
+                  Resume
                   <svg
                     width="25px"
                     viewBox="0 0 24 24"
@@ -105,7 +105,7 @@ m1010 -2214 c63 -21 74 -47 57 -130 -19 -92 -51 -106 -179 -77 -147 34 -204
                     />
                   </svg>
                 </span>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

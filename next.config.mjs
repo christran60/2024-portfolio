@@ -1,8 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      domains: ['i.scdn.co'], // Add any other domains you may need
-    },
-  };
-  
-export default nextConfig
+  images: {
+    domains: ["i.scdn.co"], // Add any other domains you may need
+  },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.pdf$/,
+      use: {
+        loader: "file-loader",
+        options: {
+          name: "[name].[ext]",
+          outputPath: "static/pdf/",
+        },
+      },
+    });
+    return config;
+  },
+};
+
+export default nextConfig;
