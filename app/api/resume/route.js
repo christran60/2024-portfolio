@@ -5,10 +5,11 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   const date = new Date();
-  const currentMonth = date.toLocaleString("default", { month: "short" }); 
-  const currentYear = date.getFullYear();
+  // const currentMonth = date.toLocaleString("default", { month: "short" });
+  // const currentYear = date.getFullYear();
 
-  const fileName = `Christopher_Tran_Resume_${currentMonth}${currentYear}.pdf`;
+  // const fileName = `Christopher_Tran_Resume_${currentMonth}${currentYear}.pdf`;
+  const fileName = `Christopher_Tran_Resume.pdf`;
   const filePath = path.join(process.cwd(), "resume", fileName);
 
   try {
