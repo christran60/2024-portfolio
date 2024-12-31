@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-export default function SocialLink({ href, imgSrc, alt }) {
+export default function SocialLink({ href, imgSrc, alt, iconClass }) {
   return (
     <a
       href={href}
@@ -15,7 +15,7 @@ export default function SocialLink({ href, imgSrc, alt }) {
         alt={alt}
         width={28}
         height={28}
-        className="filter invert"
+        className={iconClass}
       />
     </a>
   );

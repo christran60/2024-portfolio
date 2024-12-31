@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["i.scdn.co"], // Add any other domains you may need
+    domains: ["i.scdn.co", "upload.wikimedia.org"], // Add any other domains you may need
   },
   webpack: (config) => {
     config.module.rules.push({

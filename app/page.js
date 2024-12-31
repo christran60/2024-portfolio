@@ -94,12 +94,13 @@ export default function Home() {
         <div className="flex space-x-4 pb-4">
           <SocialLink
             href="https://github.com/christran60"
-            imgSrc="https://simpleicons.org/icons/github.svg"
+            imgSrc="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
             alt="GitHub"
+            iconClass="filter invert brightness-0"
           />
           <SocialLink
             href="https://linkedin.com/in/christophertran-dev"
-            imgSrc="https://simpleicons.org/icons/linkedin.svg"
+            imgSrc="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
             alt="LinkedIn"
           />
         </div>
