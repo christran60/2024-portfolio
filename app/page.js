@@ -45,7 +45,7 @@ export default function Home() {
             <i>State of California, Office of Legislative Counsel</i>, where I
             specifically am part of the Enterprise Applications team. Outside of
             software, I love to spend time gaming, working on side projects, and
-            cooking for my girlfriend.
+            cooking. I'm also looking to get out of my comfort zone with new hobbies, currently I am also trying to get into music production.
           </p>
           <br />
           {/* <Redirect
