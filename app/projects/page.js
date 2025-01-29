@@ -51,7 +51,7 @@ const grainfreezeNotes = [
   "Implemented automated end-to-end testing using Cypress to validate core functionalities, reducing manual testing efforts.",
   "Developed a Next.js & Firebase intranet for user, license, and product management",
   "Implemented role-based access control, and handled authentication and document storage with Firebase",
-  "Managed product licensing workflows and tracked user entitlements to ensure seamless access control.",
+  "Managed product licensing workflows and tracked user entitlements.",
 ];
 
 const californiaNailsNotes = [
