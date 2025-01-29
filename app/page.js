@@ -11,15 +11,15 @@ export const metadata = {
 
 const projects = [
   {
-    title: "Portfolio Website",
+    title: "GrainFreeze",
     description:
-      "This website! This link redirects to the repo instead since you saw this already.",
-    link: "https://github.com/christran60/2024-portfolio",
+      "A granular synthesizer plugin currently in the works. Currently the lead web developer",
+    link: "https://grainfreeze.vercel.app/",
   },
   {
     title: "Esports at UCD Website",
     description:
-      "Showcasing the Esports at UC Davis staff and platyers, developed using Next.JS",
+      "Showcasing the Esports at UC Davis staff and players, developed using Next.JS",
     link: "https://www.esportsatucdavis.com/",
   },
 ];
@@ -34,8 +34,8 @@ export default function Home() {
         </section>
         <section className="pt-6 text-sm font-sans font-light">
           <p>
-            Hi all, my name is Chris, and I am a <i>Software Engineer</i> based
-            in Davis, California! I graduated as a Computer Engineering major
+            Hi all, my name is Chris, and I am a <i>Software Engineer</i> from
+            Northern California! I graduated as a Computer Engineering major
             from UC Davis, but decided early on that software would be the path
             for me.
           </p>
@@ -45,7 +45,8 @@ export default function Home() {
             <i>State of California, Office of Legislative Counsel</i>, where I
             specifically am part of the Enterprise Applications team. Outside of
             software, I love to spend time gaming, working on side projects, and
-            cooking. Currently I am learning music production!
+            cooking. I love learning new things as well, currently I am learning
+            music production!
           </p>
           <br />
           {/* <Redirect

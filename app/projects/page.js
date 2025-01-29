@@ -7,9 +7,15 @@ export const metadata = {
 };
 const projects = [
   {
+    title: "GrainFreeze",
+    description:
+      "A granular synthesizer plugin currently in the works. Currently the lead web developer",
+    link: "https://grainfreeze.vercel.app/",
+  },
+  {
     title: "Esports at UCD Showcase",
     description:
-      "Showcasing the Esports at UC Davis staff and platyers, developed using Next.JS",
+      "Showcasing the Esports at UC Davis staff and players, developed using Next.JS",
     link: "https://www.esportsatucdavis.com/",
   },
   {
@@ -38,6 +44,13 @@ const eaucdNotes = [
   "Strengthened the club's presentation to attract sponsors and engage with school administration.",
 ];
 
+const grainfreezeNotes = [
+  "Developed using Next.js and TailwindUI, referencing our team's Figma designs to ensure a seamless and functional user experience.",
+  "Integrated Firebase for authentication and Firestore for managing user accounts and data.",
+  "Deployed using Vercel",
+  "Implemented automated end-to-end testing using Cypress to validate core functionalities, ensuring a seamless user experience and reducing manual testing efforts.",
+];
+
 const californiaNailsNotes = [
   "Developed using Next.js and ChakraUI",
   "Deployed using Netlify",
@@ -63,6 +76,16 @@ export default function Projects() {
           <ProjectList projects={projects} />
         </section>
         <section className="pt-12 space-y-16">
+          <div>
+            <h1 className="text-md font-bold pb-6">Project Descriptions</h1>{" "}
+            <Experience
+              title="GrainFreeze"
+              name="Personal Project"
+              dates="Dec 2024 - Present"
+              blurb="GrainFreeze is a granular synthesizer audio plugin to be built and distributed by our small team of three. As the lead web developer, I built a majority of the website, focusing on functionality, performance, and deployment."
+            />
+            <OrderedList items={grainfreezeNotes} />
+          </div>
           <div>
             <h1 className="text-md font-bold pb-6">Project Descriptions</h1>{" "}
             <Experience
