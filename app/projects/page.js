@@ -45,10 +45,13 @@ const eaucdNotes = [
 ];
 
 const grainfreezeNotes = [
-  "Developed using Next.js and TailwindUI, referencing our team's Figma designs to ensure a seamless and functional user experience.",
+  "Developed using Next.js and Tailwind UI, aligning with team's Figma designs for a smooth user experience",
+  "Deployed and managed via Vercel for scalable and efficient hosting",
   "Integrated Firebase for authentication and Firestore for managing user accounts and data.",
-  "Deployed using Vercel",
-  "Implemented automated end-to-end testing using Cypress to validate core functionalities, ensuring a seamless user experience and reducing manual testing efforts.",
+  "Implemented automated end-to-end testing using Cypress to validate core functionalities, reducing manual testing efforts.",
+  "Developed a Next.js & Firebase intranet for user, license, and product management",
+  "Implemented role-based access control, and handled authentication and document storage with Firebase",
+  "Managed product licensing workflows and tracked user entitlements to ensure seamless access control.",
 ];
 
 const californiaNailsNotes = [
