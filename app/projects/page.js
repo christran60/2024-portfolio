@@ -9,7 +9,7 @@ const projects = [
   {
     title: "GrainFreeze",
     description:
-      "A granular synthesizer plugin currently in the works. Currently the lead web developer",
+      "A granular synthesizer plugin in development, where I serve as the lead web developer.",
     link: "https://grainfreeze.vercel.app/",
   },
   {
