@@ -46,7 +46,10 @@ export default function Home() {
             specifically am part of the Enterprise Applications team. Outside of
             software, I love to spend time gaming, working on side projects, and
             cooking. I love learning new things as well, currently I am learning
-            music production!
+            diving deep into the world of machine learning by building a
+            predictive model from the ground up. I'm using Counter-Strike 2
+            match data from the FACEIT API to train a classification algorithm
+            that can forecast player performance before a match begins.
           </p>
           <br />
           {/* <Redirect

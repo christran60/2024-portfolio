@@ -6,17 +6,15 @@ export const metadata = {
 };
 export default function Work() {
   const olcResponsibilities = [
-    "Currently playing a key role in converting a customer-facing Microsoft Silverlight application to WPF using the MVVM design pattern to enhance user experience and architecture",
-    "Provide technical production support, troubleshoot and resolve software/hardware issues for mission-critical systems.",
-    "Collaborate with cross-functional teams to ensure accuracy, quality, and timely delivery of technical work.",
-    "Develop and maintain complex .NET web applications to support legislative business functions.",
+    "Accelerated a critical modernization project by implementing multithreading during the migration from Silverlight to WPF, delivering a key sprint two months ahead of schedule.",
+    "Enhanced application performance by over 50%, earning positive feedback directly from customers on the system's improved speed and responsiveness.",
+    "Re-architected core components to a modern MVVM design pattern, eliminating a class of recurring stability bugs and creating a more maintainable, modular codebase.",
+    "Ensured 99.9% uptime for mission-critical legislative systems by resolving production issues and creating new documentation for the support team.",
   ];
 
   const ariaResponsibilities = [
-    "Created a .NET Core web API project that utilized the Identity authentication API to verify user credentials and return relevant data.    Conducted extensive testing using a REST client to ensure successful implementation.",
-    "Led project to modernize legacy customer interface by migrating from Visual Basic to a .NET ecosystem, leveraging Razor Pages and MVC architecture with C#, resulting in improved performance and maintainability.",
-    "Integrated the Stripe API to streamline payment processing, ensuring a seamless and secure transaction experience for users.",
-    "Collaborated within an Agile sprint to identify bugs and deploy fixes, successfully meeting the target deadline for a webpage revamp aimed at improving Google search performance.",
+    "Led the full-stack modernization of a legacy customer application, migrating it from Visual Basic to a .NET MVC 	architecture, which boosted average page load speed by 40% and cut deployment time for new features in half.",
+    "Spearheaded a targeted webpage revamp that propelled our site from the second page to the top 3 results on Google for key search terms, directly leading to a significant and measurable increase in user traffic.",
   ];
 
   const schoolItems = [

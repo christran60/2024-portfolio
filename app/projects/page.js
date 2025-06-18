@@ -10,7 +10,7 @@ const projects = [
     title: "GrainFreeze",
     description:
       "A granular synthesizer plugin in development, where I serve as a lead software engineer.",
-    link: "https://grainfreeze.vercel.app/",
+    link: "https://grainfreeze.io/",
   },
   {
     title: "Esports at UCD Showcase",
@@ -45,13 +45,10 @@ const eaucdNotes = [
 ];
 
 const grainfreezeNotes = [
-  "Developed using Next.js and Tailwind UI, aligning with team's Figma designs for a smooth user experience",
-  "Deployed and managed via Vercel for scalable and efficient hosting",
-  "Integrated Firebase for authentication and Firestore for managing user accounts and data.",
-  "Implemented automated end-to-end testing using Cypress to validate core functionalities, reducing manual testing efforts.",
-  "Developed a Next.js & Firebase intranet for user, license, and product management",
-  "Implemented role-based access control, and handled authentication and document storage with Firebase",
-  "Managed product licensing workflows and tracked user entitlements.",
+  "Led the development of the full-stack web platform, utilizing Next.js, Firebase, and Stripe to handle all user accounts, e-commerce, and product licensing.",
+  "Bridged the web platform and the C++ desktop application by implementing Google Sign-In directly within the JUCE plugin, enabling seamless user authentication across web and native clients.",
+  "Architected the automated sales and license-key fulfillment pipeline, using Stripe for payment processing and Cloud Functions to securely generate and deliver product licenses upon purchase.",
+  "Implemented an end-to-end testing suite with Playwright, automating validation of the entire user journey from signup to payment, which reduced manual regression testing time by over 90%.",
 ];
 
 const californiaNailsNotes = [
@@ -94,7 +91,7 @@ export default function Projects() {
             <Experience
               title="Esports at UCD Website"
               name="Esports at UC Davis"
-              dates="Aug 2022 - Present"
+              dates="Aug 2022 - Jun 2024"
               blurb="As the captain of one of the club's long-standing teams, I felt that we needed a better way to showcase our staff and teams. So, I created the website to highlight them! Today, I maintain communication with the club's current administration for regular updates to staff and team rosters."
             />
             <OrderedList items={eaucdNotes} />
