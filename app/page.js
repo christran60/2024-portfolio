@@ -11,6 +11,12 @@ export const metadata = {
 
 const projects = [
   {
+    title: "Cowtown Customs",
+    description:
+      "A comprehensive Valorant ELO tracking system built with Next.js 14, TypeScript, and Supabase for UC Davis' custom games and 10-man matches.",
+    link: "https://cowtown-customs.vercel.app/",
+  },
+  {
     title: "GrainFreeze",
     description:
       "A granular synthesizer plugin in development, where I serve as a lead software engineer.",
@@ -45,11 +51,11 @@ export default function Home() {
             <i>State of California, Office of Legislative Counsel</i>, where I
             specifically am part of the Enterprise Applications team. Outside of
             software, I love to spend time gaming, working on side projects, and
-            cooking. I love learning new things as well, currently I am learning
-            diving deep into the world of machine learning by building a
-            predictive model from the ground up. I&apos;m using Counter-Strike 2
-            match data from the FACEIT API to train a classification algorithm
-            that can forecast player performance before a match begins.
+            cooking. I love learning new things as well, currently I am diving
+            deep into game development using Godot. I also developed{" "}
+            <i>Cowtown Customs</i>, a leaderboard and Elo tracking system for UC
+            Davis&apos; custom games and 10-man matches, which enhanced
+            competitive gaming within our university community.
           </p>
           <br />
           {/* <Redirect

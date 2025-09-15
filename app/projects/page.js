@@ -7,6 +7,12 @@ export const metadata = {
 };
 const projects = [
   {
+    title: "Cowtown Customs",
+    description:
+      "A leaderboard and Elo tracking system for UC Davis' custom games and 10-man matches, built to enhance competitive gaming within the university community.",
+    link: "https://cowtown-customs.vercel.app/",
+  },
+  {
     title: "GrainFreeze",
     description:
       "A granular synthesizer plugin in development, where I serve as a lead software engineer.",
@@ -65,6 +71,15 @@ const firstPortfolioNotes = [
   "Deployed using Netlify",
 ];
 
+const cowtownCustomsNotes = [
+  "Built a full-stack Next.js 14 application with TypeScript, featuring server-side rendering and type-safe API routes",
+  "Implemented Supabase (PostgreSQL) as the backend-as-a-service with comprehensive database schema including players, matches, teams, and ELO history tables",
+  "Created automated PostgreSQL functions and triggers for real-time statistics calculation, ELO updates, and data consistency",
+  "Developed a sophisticated ELO rating system with complete ELO history tracking, and automatic player statistics aggregation",
+  "Built comprehensive player profiles with map-specific performance, daily/weekly statistics, and advanced Valorant metrics (ACS, ADR, KAST, etc.)",
+  "Implemented responsive UI with Tailwind CSS, Framer Motion animations, and Lucide React icons for an engaging user experience",
+];
+
 export default function Projects() {
   return (
     <div className="min-h-screen bg-neutral-950 pt-32 dark:text-white">
@@ -79,9 +94,18 @@ export default function Projects() {
           <div>
             <h1 className="text-md font-bold pb-6">Project Descriptions</h1>{" "}
             <Experience
+              title="Cowtown Customs"
+              name="UC Davis VALORANT"
+              dates="Sep 2025"
+              blurb="Developed a comprehensive Valorant ELO tracking system using Next.js 14, TypeScript, and Supabase (PostgreSQL) for UC Davis' custom games and 10-man matches. Features automated statistics calculation, detailed player profiles with map-specific performance, ELO history tracking, and a sophisticated database schema with triggers for real-time updates."
+            />
+            <OrderedList items={cowtownCustomsNotes} />
+          </div>
+          <div>
+            <Experience
               title="GrainFreeze"
               name="Personal Project"
-              dates="Dec 2024 - Present"
+              dates="Dec 2024 - Jun 2025"
               blurb="GrainFreeze is a granular synthesizer audio plugin to be built and distributed by our small team of three. As the lead web developer, I built a majority of the website, focusing on functionality, performance, and deployment."
             />
             <OrderedList items={grainfreezeNotes} />
