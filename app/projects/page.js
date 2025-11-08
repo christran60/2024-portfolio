@@ -7,6 +7,12 @@ export const metadata = {
 };
 const projects = [
   {
+    title: "OSCS Central",
+    description:
+      "A content aggregation platform for streamers and creators, featuring real-time Twitch status tracking, YouTube integration, and member showcasing built with Next.js and TypeScript.",
+    link: "https://www.oscscentral.com/",
+  },
+  {
     title: "Cowtown Customs",
     description:
       "A leaderboard and Elo tracking system for UC Davis' custom games and 10-man matches, built to enhance competitive gaming within the university community.",
@@ -80,6 +86,15 @@ const cowtownCustomsNotes = [
   "Implemented responsive UI with Tailwind CSS, Framer Motion animations, and Lucide React icons for an engaging user experience",
 ];
 
+const oscsNotes = [
+  "Developed a content aggregation platform using Next.js 16 with TypeScript and Tailwind CSS 4 for modern, type-safe development",
+  "Integrated Twitch API for real-time streamer status tracking, live viewer counts, and follower statistics with automatic updates",
+  "Implemented YouTube API integration to fetch and display latest videos, view counts, and channel content dynamically",
+  "Built comprehensive member management system with configurable profiles, social media links, and affiliate tracking",
+  "Created multiple content sections including awards, clips, music, stats, and patch notes for organized content discovery",
+  "Designed responsive UI with real-time data refresh, live/offline streamer categorization, and interactive navigation",
+];
+
 export default function Projects() {
   return (
     <div className="min-h-screen bg-neutral-950 pt-32 dark:text-white">
@@ -93,6 +108,15 @@ export default function Projects() {
         <section className="pt-12 space-y-16">
           <div>
             <h1 className="text-md font-bold pb-6">Project Descriptions</h1>{" "}
+            <Experience
+              title="OSCS Central"
+              name="Content Creator Platform"
+              dates="Nov 2025"
+              blurb="Built a comprehensive content aggregation platform for streamers and creators, featuring real-time Twitch status tracking, YouTube video integration, and member showcasing. The platform provides a centralized hub for tracking live streams, viewing statistics, and organizing content across multiple sections including awards, clips, music, and stats."
+            />
+            <OrderedList items={oscsNotes} />
+          </div>
+          <div>
             <Experience
               title="Cowtown Customs"
               name="UC Davis VALORANT"

@@ -11,6 +11,12 @@ export const metadata = {
 
 const projects = [
   {
+    title: "OSCS Central",
+    description:
+      "A content aggregation platform for streamers and creators, featuring real-time Twitch status tracking, YouTube integration, and member showcasing built with Next.js and TypeScript.",
+    link: "https://www.oscscentral.com/",
+  },
+  {
     title: "Cowtown Customs",
     description:
       "A comprehensive Valorant ELO tracking system built with Next.js 14, TypeScript, and Supabase for UC Davis' custom games and 10-man matches.",
@@ -51,11 +57,7 @@ export default function Home() {
             <i>State of California, Office of Legislative Counsel</i>, where I
             specifically am part of the Enterprise Applications team. Outside of
             software, I love to spend time gaming, working on side projects, and
-            cooking. I love learning new things as well, currently I am diving
-            deep into game development using Godot. I also developed{" "}
-            <i>Cowtown Customs</i>, a leaderboard and Elo tracking system for UC
-            Davis&apos; custom games and 10-man matches, which enhanced
-            competitive gaming within our university community.
+            cooking.
           </p>
           <br />
           {/* <Redirect
